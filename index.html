@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Latihan Web </title>
+        <link rel="styslesheet" type="text/css" href="practice/style.css">
+        <!--
+            <style type="text/css">
+        .warnaBiru {
+            color: blue;
+        }
+        #warnaMerah {
+            color: red;
+        }
+        h4 {
+            color: #373737;
+        }
+        h5 {
+            color: rgb(4,5, 6);
+        }
+        </style>
+        -->
+        
+    </head>
+    <body>
+        <h1 class="warnaBiru"> Heading 1 </h1>
+        <h2 id="warnaMerah"> Heading 2 </h2> 
+        <h2> Heading 2 yang lain </h2>
+        <h3 class="warnaBiru"> Heading 3 </h3>
+        <h4> Heading 4 </h4>
+        <h5> Heading 5 </h5>
+        <h6> Heading 6 </h6>
+        <p class="warnaBiru"> Ini adalah paragraf </p>
+
+        <button onclick="myMove()"> Animate </button>
+        <div id="myBox"> </div>
+        <img src=" " width=" 40px ">
+        <script type="text/javascript" src="practice/script.js"> </script>
+        <!--
+        <script type="text/javascript">
+            function myMove() {
+                var elem = document.getElementById("myBox");
+                var pos = 0;
+                var id = setInterval(frames, 10);
+                function frame() {
+                    if(pos == 200) {
+                        clearInterval(id);
+                    } else {
+                        pos++;
+                        elem.style.top = pos + 'px';
+                        elem.style.left = pos + 'px';
+                    }
+                }
+            }
+            window.onload = myMove;
+        </script>
+         -->
+    </body>
+</html>
